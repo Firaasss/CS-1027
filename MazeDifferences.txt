@@ -1,0 +1,14 @@
+Maze 1:
+
+- goes to the right and instead of going down to the end it goes upwards 
+- this is because checks i = 0 first
+- Stack pops elements by going backwards then finally finds end 
+- goes longer way
+
+
+Maze 3: 
+
+- Despite the end tile being on the left, the maze goes all the way to the right side
+- This is a valid move because it is instructed to check i=0; i<6; i++ 
+- checks every single tile before finally going to the very left, last tile in maze
+- again, goes longer way than other mazes
